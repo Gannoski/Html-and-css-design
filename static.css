@@ -1,0 +1,25 @@
+body ul {list-style:none;
+    display:flex;
+    justify-content:space-between;
+    margin-bottom:40px;}
+
+main   {background-color:black;}
+h1 {margin-bottom:30px;
+    font-size:3em;}
+@media screen and (min-width:401px) and (max-width:750px){body{background-color: yellow;}}
+@media screen and (min-width:751px) and (max-width: 900px)
+        {
+            body {font-style:lucida;background-color: lawngreen;
+            font-size: 1.3em;}}
+@media screen and (max-width:400px){ul#images{float:none;width:100%; display:none;font-size: 0.6em;}}
+p   {font-size:1.1em}
+header      {float:right;
+            display:table;width:40%; margin-bottom: 50px;
+            font-size: 1em;}
+div.second {border-color: rgba(222, 184, 135, 0.726);
+            display:table;width:100%;}
+
+div.first{display:table; width:40%;
+        font-size:1.2em;}
+p#p {font-size:2em;
+    font-weight: bold;}
